@@ -1,0 +1,258 @@
+/* html{
+    font-size: 16px;
+} */
+header {
+    /* overflow: hidden; */
+    /* background-color: #333; */
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    z-index: 1;
+}
+
+nav {
+    position: fixed;
+    color: azure;
+
+    display: flex;
+    background-color: #1f2f5ef9;
+    border-radius: 2px solid black;
+    border: 1px solid black;
+    width: 95.9rem;
+    height: 3.6rem;
+    margin: 0.rem;
+
+}
+
+nav ul h2 {
+    margin: -2.6rem -1rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 5rem;
+}
+
+ul {
+
+    text-align: center;
+    list-style: none;
+    display: flex;
+    /* padding: 0 50px; */
+    margin: 3rem;
+}
+
+nav ul li {
+    margin: -1.9rem 1rem;
+    position: relative;
+    left: 73%;
+}
+
+.container {
+    height: 31rem;
+    /* background-color: antiquewhite; */
+}
+
+.container img {
+    height: 26rem;
+    width: 96rem;
+    padding: 0.1rem;
+    margin: 0rem -7rem;
+    margin-top: 0rem;
+    opacity: 0.5;
+    margin-top: 3.5rem;
+}
+
+
+
+
+.hoverpage {
+    height: 22rem;
+    padding-right: 2rem;
+    width: 41rem;
+    background-color: white;
+    /* border: 5px solid white; */
+    position: relative;
+    bottom: 26rem;
+    left: 30%;
+
+}
+
+.hoverpage h2 {
+    font-size: 1.75rem;
+    position: relative;
+    left: 29%;
+}
+
+.page h3 {
+    position: relative;
+    left: 30%;
+}
+
+.fa {
+    position: relative;
+    left: 31%;
+    bottom: 50px
+}
+
+.button1 p:hover {
+    background-color: darkblue;
+}
+
+.button1 p {
+    border: 1px solid gray;
+    position: relative;
+    top: 23%;
+    left: 29%;
+    width: 16rem;
+    height: 3rem;
+    margin: 1rem;
+    color: white;
+    background-color: #229ED9;
+    padding: 0 3rem;
+    cursor: pointer;
+}
+
+.button2 p {
+    border: 1px solid red;
+    position: relative;
+    left: 29%;
+    width: 16rem;
+    height: 3rem;
+    margin: 1rem;
+    color: white;
+    background-color: orangered;
+    padding: 0 3rem;
+    cursor: pointer;
+
+}
+
+.button2 p:hover {
+    background-color: darkorange;
+}
+
+
+.morethan {
+    height: 35rem;
+}
+
+.morethan h3 {
+    text-align: center;
+}
+
+.screenimages {
+    height: 19rem;
+    /* border: 8px solid blue; */
+    width: 63rem;
+    justify-content: unset;
+    position: relative;
+    left: 19%;
+}
+
+
+.screenimages img {
+
+    height: 5rem;
+    width: 8vw;
+    margin: 1.2rem;
+    padding: 0.8rem;
+
+}
+
+.higher {
+    height: 10rem;
+    /* border: 2px solid yellow; */
+    width: 46rem;
+    position: relative;
+    left: 29%;
+    margin-top: 1rem;
+
+}
+
+.head1 {
+    width: 31vw;
+}
+
+.photo img {
+    position: relative;
+    justify-content: right;
+    left: 73%;
+    height: 5rem;
+    bottom: 7rem;
+}
+
+.man {
+
+    height: 26rem;
+    border: 2px solid gray;
+    /* width: 35vw; */
+}
+
+
+.para1 {
+
+    /* border: 2px solid blue; */
+    position: relative;
+    left: 28%;
+    width: 22rem;
+    height: 6rem;
+    top: 17%;
+    background-color: #faebd7a6;
+}
+
+.circle {
+    position: relative;
+    left: 28%;
+    top: 22%;
+}
+
+.circle img {
+    border-radius: 50%;
+    width: 7rem;
+}
+
+.para2 {
+
+    position: relative;
+    left: 7%;
+    bottom: 2rem;
+}
+
+/* man 2 images */
+
+.para21 {
+    position: relative;
+    left: 28%;
+    width: 22rem;
+    height: 6rem;
+    bottom: 17rem;
+    background-color: #faebd7a6;
+}
+
+.circle2 {
+    position: relative;
+    left: 28%;
+    bottom: 15em;
+}
+
+.circle2 img {
+    border-radius: 50%;
+    width: 7rem;
+}
+
+.para22 {
+
+    position: relative;
+    left: 7%;
+    bottom: 2rem;
+}
+
+.btn {
+    cursor: pointer;
+    position: relative;
+    right: 8rem;
+}
+
+/* .row { */
+
+/* pending mediaqueries */
+@media only screen and (max-width: 600px) {
+    
+}
